@@ -149,18 +149,24 @@ Prototipo académico orientado a la gestión comercial y financiera de emprendim
 
 ## Actividad en GitHub
 
-<p align="center">
-  <img
-    height="170"
-    src="./profile/stats.svg"
-    alt="Estadísticas de GitHub de Josué Chacae"
-  />
-  <img
-    height="170"
-    src="./profile/top-langs.svg"
-    alt="Lenguajes más utilizados"
-  />
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="62%">
+      <img
+        src="./profile/stats.svg"
+        alt="Estadísticas de GitHub de Josué Chacae"
+        width="100%"
+      />
+    </td>
+    <td align="center" width="38%">
+      <img
+        src="./profile/top-langs.svg"
+        alt="Lenguajes más utilizados"
+        width="100%"
+      />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <sub>
