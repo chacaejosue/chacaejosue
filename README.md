@@ -91,20 +91,28 @@ Proyecto personal en Python que documenta la evolución de un generador básico 
 
 `Python` · `Ciberseguridad` · `Código seguro`
 
-[Ver repositorio](https://github.com/chacaejosue/pass-forge)
-
 </td>
 <td width="50%" valign="top">
 
-### PPAC Simulator
+### Finora
 
-Herramienta en Python que procesa el historial académico exportado en PDF y permite calcular y proyectar el Promedio Ponderado Acumulado por Créditos.
+Sistema web desarrollado en Laravel para apoyar la gestión comercial y financiera de ventas por catálogo, centralizando productos, inventario, ventas, compras, créditos y reportes.
 
 **Tecnologías**
 
-`Python` · `PDF` · `Automatización`
+`Laravel` · `PHP` · `MySQL`
 
-[Ver repositorio](https://github.com/chacaejosue/ppac-simulador)
+</td>
+</tr>
+<tr>
+<td valign="middle">
+
+[Ver repositorio](https://github.com/chacaejosue/pass-forge)
+
+</td>
+<td valign="middle">
+
+[Ver repositorio](https://github.com/chacaejosue/sistema-informacion-web.git)
 
 </td>
 </tr>
@@ -114,13 +122,11 @@ Herramienta en Python que procesa el historial académico exportado en PDF y per
 
 ### BodyIndex
 
-Aplicación de consola para calcular y clasificar métricas como IMC, metabolismo basal y gasto energético estimado.
+Aplicación de consola en Python para calcular, validar y clasificar métricas corporales como IMC, metabolismo basal y gasto energético estimado.
 
 **Tecnologías**
 
 `Python` · `CLI` · `Validación`
-
-[Ver repositorio](https://github.com/chacaejosue/body-index)
 
 </td>
 <td width="50%" valign="top">
@@ -132,6 +138,16 @@ Prototipo académico orientado a la gestión comercial y financiera de emprendim
 **Tecnologías**
 
 `Laravel` · `SQL Server` · `Desarrollo web`
+
+</td>
+</tr>
+<tr>
+<td valign="middle">
+
+[Ver repositorio](https://github.com/chacaejosue/body-index)
+
+</td>
+<td valign="middle">
 
 [Ver prototipo](https://github.com/chacaejosue/sistema-ventas)
 
@@ -149,24 +165,18 @@ Prototipo académico orientado a la gestión comercial y financiera de emprendim
 
 ## Actividad en GitHub
 
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="62%">
-      <img
-        src="./profile/stats.svg"
-        alt="Estadísticas de GitHub de Josué Chacae"
-        width="100%"
-      />
-    </td>
-    <td align="center" width="38%">
-      <img
-        src="./profile/top-langs.svg"
-        alt="Lenguajes más utilizados"
-        width="100%"
-      />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img
+    height="170"
+    src="./profile/stats.svg"
+    alt="Estadísticas de GitHub de Josué Chacae"
+  />
+  <img
+    height="170"
+    src="./profile/top-langs.svg"
+    alt="Lenguajes más utilizados"
+  />
+</p>
 
 <p align="center">
   <sub>
