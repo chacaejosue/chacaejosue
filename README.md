@@ -95,26 +95,26 @@
 
 ## Stack tecnológico
 
-<table>
+<table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="500" valign="top">
   <strong>Lenguajes</strong><br><br>
   <code>Python 3</code> &bull; <code>TypeScript</code> &bull; <code>JavaScript</code><br>
   <code>PHP 8</code> &bull; <code>Java</code> &bull; <code>SQL</code>
 </td>
-<td width="50%" valign="top">
+<td width="500" valign="top">
   <strong>Backend & Web</strong><br><br>
   <code>Next.js 15</code> &bull; <code>Flask REST API</code> &bull; <code>Laravel MVC</code><br>
   <code>Astro</code> &bull; <code>Tailwind CSS</code>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="500" valign="top">
   <strong>Bases de Datos</strong><br><br>
   <code>PostgreSQL</code> &bull; <code>Supabase</code> &bull; <code>MySQL</code><br>
   <code>SQL Server</code> &bull; <code>Modelado UML</code>
 </td>
-<td width="50%" valign="top">
+<td width="500" valign="top">
   <strong>Seguridad & Herramientas</strong><br><br>
   <code>CSPRNG & Criptografía</code> &bull; <code>Linux CLI</code><br>
   <code>Git / GitHub</code> &bull; <code>Redes TCP/IP</code> &bull; <code>Scrum</code>
