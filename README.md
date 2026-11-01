@@ -38,47 +38,59 @@
 
 ## Proyectos destacados
 
-<table>
+<table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="500" valign="top">
   <a href="https://github.com/chacaejosue/finpal">
     <img src="./assets/projects/finpal.svg" alt="FinPal" width="100%">
   </a>
   <br><br>
   <strong><a href="https://github.com/chacaejosue/finpal">FinPal</a></strong><br>
-  Control de finanzas personales y préstamos con simulador francés, PostgreSQL RLS y cifrado en servidor.<br><br>
-  <sub><code>Next.js 16</code> &bull; <code>TypeScript</code> &bull; <code>Supabase</code> &bull; <code>PostgreSQL</code></sub><br>
-  <sub><a href="https://github.com/chacaejosue/finpal">Ver repositorio &rarr;</a></sub>
+  Control de finanzas personales y préstamos con simulador francés, PostgreSQL RLS y cifrado en servidor.
 </td>
-<td width="50%" valign="top">
+<td width="500" valign="top">
   <a href="https://github.com/chacaejosue/pass-forge">
     <img src="./assets/projects/passforge.svg" alt="PassForge" width="100%">
   </a>
   <br><br>
   <strong><a href="https://github.com/chacaejosue/pass-forge">PassForge</a></strong><br>
-  Generador seguro de contraseñas basado en <code>secrets</code> (CSPRNG), con Flask API y cliente en Astro.<br><br>
+  Generador seguro de contraseñas basado en <code>secrets</code> (CSPRNG), con Flask API y cliente en Astro.
+</td>
+</tr>
+<tr>
+<td valign="top">
+  <sub><code>Next.js 16</code> &bull; <code>TypeScript</code> &bull; <code>Supabase</code> &bull; <code>PostgreSQL</code></sub><br>
+  <sub><a href="https://github.com/chacaejosue/finpal">Ver repositorio &rarr;</a></sub>
+</td>
+<td valign="top">
   <sub><code>Python 3</code> &bull; <code>Flask API</code> &bull; <code>Astro</code> &bull; <code>CSPRNG</code></sub><br>
   <sub><a href="https://passforge.vercel.app/">Probar demo en vivo &rarr;</a></sub>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="500" valign="top">
   <a href="https://github.com/chacaejosue/finora">
     <img src="./assets/projects/finora.svg" alt="Finora" width="100%">
   </a>
   <br><br>
   <strong><a href="https://github.com/chacaejosue/finora">Finora</a></strong><br>
-  Sistema de venta directa por catálogo con inventario kardex, cobranzas en cuotas y reportería comercial.<br><br>
-  <sub><code>Laravel MVC</code> &bull; <code>PHP 8</code> &bull; <code>MySQL</code> &bull; <code>Scrum</code></sub><br>
-  <sub><a href="https://github.com/chacaejosue/finora">Ver repositorio &rarr;</a></sub>
+  Sistema de venta directa por catálogo con inventario kardex, cobranzas en cuotas y reportería comercial.
 </td>
-<td width="50%" valign="top">
+<td width="500" valign="top">
   <a href="https://github.com/chacaejosue/body-index">
     <img src="./assets/projects/body-index.svg" alt="BodyIndex" width="100%">
   </a>
   <br><br>
   <strong><a href="https://github.com/chacaejosue/body-index">BodyIndex</a></strong><br>
-  Suite de análisis biométrico que integra ecuaciones científicas para cálculo de IMC, TMB y macronutrientes.<br><br>
+  Suite de análisis biométrico que integra ecuaciones científicas para cálculo de IMC, TMB y macronutrientes.
+</td>
+</tr>
+<tr>
+<td valign="top">
+  <sub><code>Laravel MVC</code> &bull; <code>PHP 8</code> &bull; <code>MySQL</code> &bull; <code>Scrum</code></sub><br>
+  <sub><a href="https://github.com/chacaejosue/finora">Ver repositorio &rarr;</a></sub>
+</td>
+<td valign="top">
   <sub><code>Python 3</code> &bull; <code>FastAPI</code> &bull; <code>Next.js</code> &bull; <code>CLI</code></sub><br>
   <sub><a href="https://github.com/chacaejosue/body-index">Ver repositorio &rarr;</a></sub>
 </td>
