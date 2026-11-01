@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 495" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fo-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b"/>
+      <stop offset="100%" stop-color="#0d111a"/>
+    </linearGradient>
+    <!-- Gradientes Oficiales del Isotipo de Finora -->
+    <linearGradient id="finora-top" x1="0%" y1="90%" x2="100%" y2="10%">
+      <stop offset="0%" stop-color="#00f8e7" />
+      <stop offset="35%" stop-color="#00e4da" />
+      <stop offset="70%" stop-color="#00c2c3" />
+      <stop offset="100%" stop-color="#05a9af" />
+    </linearGradient>
+    <linearGradient id="finora-stem" x1="30%" y1="0%" x2="45%" y2="100%">
+      <stop offset="0%" stop-color="#0238b8" />
+      <stop offset="20%" stop-color="#0146cb" />
+      <stop offset="45%" stop-color="#015ede" />
+      <stop offset="75%" stop-color="#0076f7" />
+      <stop offset="100%" stop-color="#008fff" />
+    </linearGradient>
+    <linearGradient id="finora-arm" x1="0%" y1="20%" x2="100%" y2="75%">
+      <stop offset="0%" stop-color="#0096fa" />
+      <stop offset="30%" stop-color="#00beff" />
+      <stop offset="70%" stop-color="#00deff" />
+      <stop offset="100%" stop-color="#05eef8" />
+    </linearGradient>
+    <linearGradient id="fo-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0062FF"/>
+      <stop offset="100%" stop-color="#00D2DF"/>
+    </linearGradient>
+    <pattern id="fo-cad" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#27272a" stroke-width="0.6" stroke-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <rect width="880" height="495" fill="url(#fo-bg)"/>
+  <rect width="880" height="495" fill="url(#fo-cad)"/>
+
+  <!-- Window Frame -->
+  <rect x="25" y="20" width="830" height="455" rx="14" fill="#0d0e12" stroke="#27272a" stroke-width="1.2"/>
+
+  <!-- Window Header -->
+  <path d="M 25 34 A 14 14 0 0 1 39 20 L 841 20 A 14 14 0 0 1 855 34 L 855 58 L 25 58 Z" fill="#14151b"/>
+  <line x1="25" y1="58" x2="855" y2="58" stroke="#27272a" stroke-width="1"/>
+
+  <circle cx="48" cy="39" r="5" fill="#f43f5e" fill-opacity="0.9"/>
+  <circle cx="66" cy="39" r="5" fill="#fbbf24" fill-opacity="0.9"/>
+  <circle cx="84" cy="39" r="5" fill="#10b981" fill-opacity="0.9"/>
+
+  <!-- Address URL limpia (sin favicon comprimido) -->
+  <text x="105" y="43" fill="#a1a1aa" font-family="ui-monospace, monospace" font-size="11">finora.local/panel/ventas</text>
+
+  <rect x="635" y="28" width="200" height="22" rx="11" fill="#064e3b" fill-opacity="0.35" stroke="#059669" stroke-width="0.8"/>
+  <circle cx="649" cy="39" r="3.5" fill="#10b981"/>
+  <text x="660" y="43" fill="#34d399" font-family="system-ui, sans-serif" font-size="10.5" font-weight="600">Espacio: Ventas &amp; Cobranzas</text>
+
+  <!-- Header with Official Finora Calibrated Vector Isotype (100% Transparente, sin contenedor blanco) -->
+  <g transform="translate(50, 75)">
+    <!-- Isotipo Vectorial Oficial Escalado y Transparente -->
+    <g transform="translate(0, 1) scale(0.030)">
+      <path d="M 488 0 L 1056 0 C 1088 0, 1098 27, 1081 87 C 1046 177, 916 316, 798 316 L 350 316 C 216 316, 66 407, 0 543 C -4 297, 216 0, 488 0 Z" fill="url(#finora-top)" />
+      <path d="M 7 747 C 7 517, 186 439, 358 439 L 358 862 C 358 977, 276 1073, 149 1073 L 7 1073 Z" fill="url(#finora-stem)" />
+      <path d="M 358 439 L 801 439 C 836 439, 851 462, 851 497 C 851 597, 746 723, 626 723 L 358 723 Z" fill="url(#finora-arm)" />
+    </g>
+
+    <text x="44" y="16" fill="#f4f4f5" font-family="system-ui, sans-serif" font-size="13.5" font-weight="700">Control Comercial 360°</text>
+    <text x="44" y="30" fill="#71717a" font-family="system-ui, sans-serif" font-size="10.5">Ciclo activo • Trazabilidad de catálogo y cuotas</text>
+
+    <!-- BCB Rate Badge -->
+    <rect x="670" y="6" width="110" height="22" rx="5" fill="#0062FF" fill-opacity="0.12" stroke="#0062FF" stroke-width="0.8"/>
+    <text x="725" y="21" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="10" font-weight="700" text-anchor="middle">BCB: 6.96 Bs</text>
+  </g>
+
+  <!-- 3 Business Metrics -->
+  <g transform="translate(50, 125)">
+    <!-- KPI 1 -->
+    <rect x="0" y="0" width="248" height="68" rx="8" fill="#121319" stroke="#27272a" stroke-width="1"/>
+    <text x="14" y="20" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="9.5" font-weight="600" letter-spacing="0.5">VENTAS DEL MES</text>
+    <text x="14" y="44" fill="#ffffff" font-family="ui-monospace, monospace" font-size="16" font-weight="700">Bs 8,450.00</text>
+    <text x="14" y="59" fill="#00D2DF" font-family="ui-monospace, monospace" font-size="9.5" font-weight="600">32 pedidos</text>
+
+    <!-- KPI 2 -->
+    <rect x="266" y="0" width="248" height="68" rx="8" fill="#121319" stroke="#0062FF" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="280" y="20" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="9.5" font-weight="600" letter-spacing="0.5">POR COBRAR</text>
+    <text x="280" y="44" fill="#00A3FF" font-family="ui-monospace, monospace" font-size="16" font-weight="700">Bs 2,140.00</text>
+    <text x="280" y="59" fill="#71717a" font-family="system-ui, sans-serif" font-size="9.5">4 créditos activos</text>
+
+    <!-- KPI 3 -->
+    <rect x="532" y="0" width="248" height="68" rx="8" fill="#121319" stroke="#27272a" stroke-width="1"/>
+    <text x="546" y="20" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="9.5" font-weight="600" letter-spacing="0.5">COBRANZAS</text>
+    <text x="546" y="44" fill="#ffffff" font-family="ui-monospace, monospace" font-size="16" font-weight="700">Bs 6,310.00</text>
+    <text x="546" y="59" fill="#34d399" font-family="ui-monospace, monospace" font-size="9.5" font-weight="600">92% puntual</text>
+  </g>
+
+  <!-- Créditos y pedidos recientes -->
+  <g transform="translate(50, 208)">
+    <rect x="0" y="0" width="780" height="248" rx="10" fill="#121319" stroke="#27272a" stroke-width="1"/>
+    
+    <text x="18" y="26" fill="#f4f4f5" font-family="system-ui, sans-serif" font-size="12" font-weight="700">Créditos y pedidos recientes</text>
+    <text x="760" y="26" fill="#00A3FF" font-family="ui-monospace, monospace" font-size="10" font-weight="600" text-anchor="end">Kardex &amp; Cuotas</text>
+
+    <!-- Item 1: Venta a crédito con barra -->
+    <rect x="18" y="40" width="744" height="58" rx="7" fill="#181922" stroke="#27272a" stroke-width="0.8"/>
+    <text x="32" y="60" fill="#fafafa" font-family="system-ui, sans-serif" font-size="11.5" font-weight="600">Carla Ríos • Kaiak Urbe</text>
+    <text x="746" y="60" fill="#00A3FF" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700" text-anchor="end">Cuota 2/3 (67%)</text>
+    <rect x="32" y="72" width="714" height="6" rx="3" fill="#27272a"/>
+    <rect x="32" y="72" width="478" height="6" rx="3" fill="url(#fo-bar)"/>
+
+    <!-- Item 2: Recibo #PAG-184 -->
+    <rect x="18" y="106" width="744" height="48" rx="7" fill="#181922" stroke="#27272a" stroke-width="0.8"/>
+    <rect x="30" y="117" width="26" height="26" rx="5" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="0.5"/>
+    <path d="M 37 130 L 41 134 L 49 125" fill="none" stroke="#10b981" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="68" y="129" fill="#fafafa" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Recibo #PAG-184 • Abono en cuota</text>
+    <text x="68" y="142" fill="#71717a" font-family="system-ui, sans-serif" font-size="9.5">QR / Banco • Bruno Mendoza (Venta #042)</text>
+    <text x="746" y="136" fill="#34d399" font-family="ui-monospace, monospace" font-size="11.5" font-weight="700" text-anchor="end">+Bs 210.00</text>
+
+    <!-- Item 3: Pedido #PED-305 -->
+    <rect x="18" y="162" width="744" height="48" rx="7" fill="#181922" stroke="#27272a" stroke-width="0.8"/>
+    <rect x="30" y="173" width="26" height="26" rx="5" fill="#0062FF" fill-opacity="0.15" stroke="#0062FF" stroke-width="0.5"/>
+    <rect x="36" y="180" width="14" height="12" rx="2" fill="none" stroke="#38bdf8" stroke-width="1.4"/>
+    <text x="68" y="185" fill="#fafafa" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Pedido #PED-305 • Reserva confirmada</text>
+    <text x="68" y="198" fill="#71717a" font-family="system-ui, sans-serif" font-size="9.5">Ana López • 2 productos (Cuidado facial)</text>
+    <text x="746" y="192" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="11" font-weight="600" text-anchor="end">En preparación</text>
+  </g>
+</svg>

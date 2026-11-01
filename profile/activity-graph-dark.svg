@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280">
+  <defs>
+    <linearGradient id="areaGradientDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00f5ea" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00f5ea" stop-opacity="0.0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="280" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Encabezado / Métricas -->
+  <text x="50" y="36" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">Actividad de Contribuciones</text>
+  <text x="50" y="54" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">Últimas 52 semanas &#8226; 149 contribuciones registradas</text>
+  
+  <text x="870" y="36" text-anchor="end" fill="#00f5ea" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="18" font-weight="700">+149</text>
+  <text x="870" y="52" text-anchor="end" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11">Total anual</text>
+  
+  <!-- Líneas de referencia horizontales -->
+  <line x1="50" y1="70" x2="870" y2="70" stroke="#21262d" stroke-dasharray="3,3" stroke-width="1"/>
+  <line x1="50" y1="152.5" x2="870" y2="152.5" stroke="#21262d" stroke-dasharray="3,3" stroke-width="1"/>
+  <line x1="50" y1="235" x2="870" y2="235" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Área y Trazo de Contribuciones -->
+  <path d="M 50.0,235.0 C 52.6,235.0 60.5,235.0 65.8,235.0 C 71.0,235.0 76.3,235.0 81.5,235.0 C 86.8,235.0 92.1,235.0 97.3,235.0 C 102.6,235.0 107.8,235.0 113.1,235.0 C 118.3,235.0 123.6,235.0 128.8,235.0 C 134.1,235.0 139.4,235.0 144.6,235.0 C 149.9,235.0 155.1,235.0 160.4,235.0 C 165.6,235.0 170.9,235.0 176.2,235.0 C 181.4,235.0 186.7,235.0 191.9,235.0 C 197.2,235.0 202.4,235.0 207.7,235.0 C 212.9,235.0 218.2,235.0 223.5,235.0 C 228.7,235.0 234.0,235.0 239.2,235.0 C 244.5,235.0 249.7,235.0 255.0,235.0 C 260.3,235.0 265.5,238.8 270.8,235.0 C 276.0,231.2 281.3,214.0 286.5,212.0 C 291.8,210.1 297.1,219.7 302.3,223.5 C 307.6,227.3 312.8,233.1 318.1,235.0 C 323.3,236.9 328.6,235.0 333.8,235.0 C 339.1,235.0 344.4,235.0 349.6,235.0 C 354.9,235.0 360.1,235.0 365.4,235.0 C 370.6,235.0 375.9,235.0 381.2,235.0 C 386.4,235.0 391.7,235.0 396.9,235.0 C 402.2,235.0 407.4,235.0 412.7,235.0 C 417.9,235.0 423.2,239.8 428.5,235.0 C 433.7,230.2 439.0,206.3 444.2,206.3 C 449.5,206.3 454.7,231.2 460.0,235.0 C 465.3,238.8 470.5,233.1 475.8,229.3 C 481.0,225.4 486.3,214.0 491.5,212.0 C 496.8,210.1 502.1,216.8 507.3,217.8 C 512.6,218.7 517.8,215.9 523.1,217.8 C 528.3,219.7 533.6,227.3 538.8,229.3 C 544.1,231.2 549.4,238.8 554.6,229.3 C 559.9,219.7 565.1,170.9 570.4,171.9 C 575.6,172.8 580.9,224.5 586.2,235.0 C 591.4,245.5 596.7,236.0 601.9,235.0 C 607.2,234.0 612.4,229.3 617.7,229.3 C 622.9,229.3 628.2,234.0 633.5,235.0 C 638.7,236.0 644.0,235.0 649.2,235.0 C 654.5,235.0 659.7,235.0 665.0,235.0 C 670.3,235.0 675.5,235.0 680.8,235.0 C 686.0,235.0 691.3,235.0 696.5,235.0 C 701.8,235.0 707.1,235.0 712.3,235.0 C 717.6,235.0 722.8,258.9 728.1,235.0 C 733.3,211.1 738.6,99.2 743.8,91.5 C 749.1,83.9 754.4,169.0 759.6,189.1 C 764.9,209.2 770.1,225.4 775.4,212.0 C 780.6,198.7 785.9,115.4 791.2,108.7 C 796.4,102.0 801.7,159.4 806.9,171.9 C 812.2,184.3 817.4,182.4 822.7,183.3 C 827.9,184.3 833.2,186.2 838.5,177.6 C 843.7,169.0 849.0,127.9 854.2,131.7 C 859.5,135.5 867.4,189.1 870.0,200.6 L 870.0,235 L 50.0,235 Z" fill="url(#areaGradientDark)"/>
+  <path d="M 50.0,235.0 C 52.6,235.0 60.5,235.0 65.8,235.0 C 71.0,235.0 76.3,235.0 81.5,235.0 C 86.8,235.0 92.1,235.0 97.3,235.0 C 102.6,235.0 107.8,235.0 113.1,235.0 C 118.3,235.0 123.6,235.0 128.8,235.0 C 134.1,235.0 139.4,235.0 144.6,235.0 C 149.9,235.0 155.1,235.0 160.4,235.0 C 165.6,235.0 170.9,235.0 176.2,235.0 C 181.4,235.0 186.7,235.0 191.9,235.0 C 197.2,235.0 202.4,235.0 207.7,235.0 C 212.9,235.0 218.2,235.0 223.5,235.0 C 228.7,235.0 234.0,235.0 239.2,235.0 C 244.5,235.0 249.7,235.0 255.0,235.0 C 260.3,235.0 265.5,238.8 270.8,235.0 C 276.0,231.2 281.3,214.0 286.5,212.0 C 291.8,210.1 297.1,219.7 302.3,223.5 C 307.6,227.3 312.8,233.1 318.1,235.0 C 323.3,236.9 328.6,235.0 333.8,235.0 C 339.1,235.0 344.4,235.0 349.6,235.0 C 354.9,235.0 360.1,235.0 365.4,235.0 C 370.6,235.0 375.9,235.0 381.2,235.0 C 386.4,235.0 391.7,235.0 396.9,235.0 C 402.2,235.0 407.4,235.0 412.7,235.0 C 417.9,235.0 423.2,239.8 428.5,235.0 C 433.7,230.2 439.0,206.3 444.2,206.3 C 449.5,206.3 454.7,231.2 460.0,235.0 C 465.3,238.8 470.5,233.1 475.8,229.3 C 481.0,225.4 486.3,214.0 491.5,212.0 C 496.8,210.1 502.1,216.8 507.3,217.8 C 512.6,218.7 517.8,215.9 523.1,217.8 C 528.3,219.7 533.6,227.3 538.8,229.3 C 544.1,231.2 549.4,238.8 554.6,229.3 C 559.9,219.7 565.1,170.9 570.4,171.9 C 575.6,172.8 580.9,224.5 586.2,235.0 C 591.4,245.5 596.7,236.0 601.9,235.0 C 607.2,234.0 612.4,229.3 617.7,229.3 C 622.9,229.3 628.2,234.0 633.5,235.0 C 638.7,236.0 644.0,235.0 649.2,235.0 C 654.5,235.0 659.7,235.0 665.0,235.0 C 670.3,235.0 675.5,235.0 680.8,235.0 C 686.0,235.0 691.3,235.0 696.5,235.0 C 701.8,235.0 707.1,235.0 712.3,235.0 C 717.6,235.0 722.8,258.9 728.1,235.0 C 733.3,211.1 738.6,99.2 743.8,91.5 C 749.1,83.9 754.4,169.0 759.6,189.1 C 764.9,209.2 770.1,225.4 775.4,212.0 C 780.6,198.7 785.9,115.4 791.2,108.7 C 796.4,102.0 801.7,159.4 806.9,171.9 C 812.2,184.3 817.4,182.4 822.7,183.3 C 827.9,184.3 833.2,186.2 838.5,177.6 C 843.7,169.0 849.0,127.9 854.2,131.7 C 859.5,135.5 867.4,189.1 870.0,200.6" fill="none" stroke="#00f5ea" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  
+  <!-- Etiquetas de meses en el eje X -->
+  <text x="50.0" y="255" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle">Nov</text>
+  <text x="128.8" y="255" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle">Dic</text>
+  <text x="191.9" y="255" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle">Ene</text>
+  <text x="255.0" y="255" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle">Feb</text>
+  <text x="318.1" y="255" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle">Mar</text>
+  <text x="396.9" y="255" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle">Abr</text>
+  <text x="460.0" y="255" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle">May</text>
+  <text x="538.8" y="255" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle">Jun</text>
+  <text x="601.9" y="255" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle">Jul</text>
+  <text x="665.0" y="255" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle">Ago</text>
+  <text x="743.8" y="255" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle">Sep</text>
+  <text x="806.9" y="255" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle">Oct</text>
+  <text x="870.0" y="255" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle">Nov</text>
+</svg>

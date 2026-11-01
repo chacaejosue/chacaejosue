@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 495" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bi-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b"/>
+      <stop offset="100%" stop-color="#111116"/>
+    </linearGradient>
+    <pattern id="bi-cad" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#27272a" stroke-width="0.6" stroke-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <rect width="880" height="495" fill="url(#bi-bg)"/>
+  <rect width="880" height="495" fill="url(#bi-cad)"/>
+
+  <!-- Window Frame -->
+  <rect x="25" y="20" width="830" height="455" rx="14" fill="#09090d" stroke="#27272a" stroke-width="1.2"/>
+
+  <!-- Window Header -->
+  <path d="M 25 34 A 14 14 0 0 1 39 20 L 841 20 A 14 14 0 0 1 855 34 L 855 58 L 25 58 Z" fill="#141419"/>
+  <line x1="25" y1="58" x2="855" y2="58" stroke="#27272a" stroke-width="1"/>
+
+  <circle cx="48" cy="39" r="5" fill="#f43f5e" fill-opacity="0.9"/>
+  <circle cx="66" cy="39" r="5" fill="#fbbf24" fill-opacity="0.9"/>
+  <circle cx="84" cy="39" r="5" fill="#10b981" fill-opacity="0.9"/>
+
+  <text x="105" y="43" fill="#a1a1aa" font-family="ui-monospace, monospace" font-size="11">josue@dev: ~/body-index — python src/analizador.py</text>
+
+  <rect x="710" y="28" width="125" height="22" rx="11" fill="#064e3b" fill-opacity="0.35" stroke="#059669" stroke-width="0.8"/>
+  <circle cx="724" cy="39" r="3.5" fill="#34d399"/>
+  <text x="735" y="43" fill="#34d399" font-family="system-ui, sans-serif" font-size="10.5" font-weight="600">CLI Activa</text>
+
+  <!-- Terminal Content Body -->
+  <g transform="translate(50, 80)" font-family="ui-monospace, monospace">
+    <!-- Prompt line -->
+    <text x="0" y="0" font-size="12">
+      <tspan fill="#34d399" font-weight="700">➜ </tspan>
+      <tspan fill="#38bdf8" font-weight="700">body-index </tspan>
+      <tspan fill="#94a3b8">git:(main) </tspan>
+      <tspan fill="#f1f5f9">python -m src.cli</tspan>
+    </text>
+
+    <!-- Header Box in ASCII style -->
+    <text x="0" y="24" fill="#a855f7" font-size="10.5" font-weight="700">┌──────────────────────────────────────────────────────────────────────┐</text>
+    <text x="0" y="38" fill="#c084fc" font-size="10.5" font-weight="700">│               BODYINDEX v1.2 • ANALIZADOR BIOMÉTRICO                 │</text>
+    <text x="0" y="52" fill="#a855f7" font-size="10.5" font-weight="700">└──────────────────────────────────────────────────────────────────────┘</text>
+
+    <!-- Interactive prompts simulation -->
+    <g transform="translate(0, 65)">
+      <rect x="0" y="0" width="780" height="105" rx="8" fill="#120e1a" stroke="#2e1065" stroke-width="0.8"/>
+      <text x="18" y="22" fill="#e2e8f0" font-size="11" font-weight="600">Parámetros de entrada validados:</text>
+      
+      <text x="18" y="40" fill="#a1a1aa" font-size="11">Introduce tu sexo biológico (M/F):</text>
+      <text x="760" y="40" fill="#38bdf8" font-size="11" font-weight="700" text-anchor="end">Masculino [M]</text>
+
+      <text x="18" y="58" fill="#a1a1aa" font-size="11">Introduce tu peso (kg):</text>
+      <text x="760" y="58" fill="#fbbf24" font-size="11" font-weight="700" text-anchor="end">74.0</text>
+
+      <text x="18" y="76" fill="#a1a1aa" font-size="11">Introduce tu estatura (metros):</text>
+      <text x="760" y="76" fill="#fbbf24" font-size="11" font-weight="700" text-anchor="end">1.76</text>
+
+      <line x1="18" y1="84" x2="762" y2="84" stroke="#27272a" stroke-width="0.6"/>
+      <text x="18" y="94" fill="#a1a1aa" font-size="10">Nivel de actividad (1-5): <tspan fill="#c084fc" font-weight="700">3 (Moderado 3-5 d/sem)</tspan></text>
+    </g>
+
+    <!-- Report Banner -->
+    <text x="0" y="188" fill="#a855f7" font-size="10.5" font-weight="700">========================================================================</text>
+    <text x="0" y="202" fill="#d8b4fe" font-size="11" font-weight="700">                             REPORTE FINAL                              </text>
+    <text x="0" y="216" fill="#a855f7" font-size="10.5" font-weight="700">========================================================================</text>
+
+    <!-- Calculation Results Box -->
+    <g transform="translate(0, 230)">
+      <rect x="0" y="0" width="780" height="110" rx="8" fill="#120e1a" stroke="#7e22ce" stroke-width="0.8" stroke-opacity="0.4"/>
+
+      <!-- IMC -->
+      <text x="18" y="26" fill="#a1a1aa" font-size="11.5">-&gt; IMC Calculado</text>
+      <text x="760" y="26" fill="#f4f4f5" font-size="13" font-weight="700" text-anchor="end">23.89</text>
+
+      <!-- Clasificación OMS -->
+      <text x="18" y="52" fill="#a1a1aa" font-size="11.5">-&gt; Clasificación OMS</text>
+      <rect x="585" y="38" width="177" height="20" rx="4" fill="#064e3b" fill-opacity="0.3" stroke="#059669" stroke-width="0.8"/>
+      <text x="673" y="52" fill="#34d399" font-size="10.5" font-weight="700" text-anchor="middle">Peso normal (Saludable)</text>
+
+      <!-- TMB -->
+      <text x="18" y="78" fill="#a1a1aa" font-size="11.5">-&gt; Metabolismo Basal (TMB)</text>
+      <text x="760" y="78" fill="#d8b4fe" font-size="12" font-weight="700" text-anchor="end">1,715.00 kcal</text>
+
+      <!-- GET -->
+      <text x="18" y="100" fill="#a1a1aa" font-size="11.5">-&gt; Gasto Diario Total (GET)</text>
+      <text x="760" y="100" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="end">2,658.25 kcal</text>
+    </g>
+
+    <!-- Terminal Footer Prompt -->
+    <g transform="translate(0, 360)">
+      <line x1="0" y1="0" x2="780" y2="0" stroke="#27272a" stroke-width="0.8"/>
+      <text x="0" y="18" font-size="11">
+        <tspan fill="#34d399" font-weight="700">➜ </tspan>
+        <tspan fill="#c084fc" font-weight="700">body-index </tspan>
+      </text>
+      <!-- Blinking Cursor -->
+      <rect x="95" y="7" width="7" height="13" fill="#c084fc"/>
+
+      <text x="780" y="18" fill="#71717a" font-size="10.5" text-anchor="end">Python 3.10+ • Modular &amp; Sin dependencias externas</text>
+    </g>
+  </g>
+</svg>

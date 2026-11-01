@@ -1,78 +1,37 @@
 <p align="center">
   <img
-    src="./assets/portada.png"
+    src="./assets/portada.svg"
     alt="Josué Chacae — Ingeniería en Sistemas, Ciberseguridad y Desarrollo"
     width="100%"
   />
 </p>
 
 <p align="center">
-  Estudiante de Ingeniería en Sistemas con interés en ciberseguridad, desarrollo de software, soporte TI y tecnologías cloud.
+  <strong>Josué Chacae</strong> &bull; <code>UAGRM &bull; 7.º Semestre (70%)</code> &bull; <code>Bolivia</code>
+</p>
+
+<p align="center">
+  <em>Backend Seguro &bull; Ciberseguridad Aplicada &bull; Arquitectura de Sistemas</em>
 </p>
 
 <p align="center">
   <a href="https://josuechacae.dev">
-    <img
-      src="https://img.shields.io/badge/PORTAFOLIO-josuechacae.dev-0f766e?style=for-the-badge"
-      alt="Portafolio"
-    />
+    <img src="https://img.shields.io/badge/Portafolio-0f766e?style=flat-square&logo=googlechrome&logoColor=white" alt="Portafolio" />
   </a>
   <a href="https://www.linkedin.com/in/chacae-josue">
-    <img
-      src="https://img.shields.io/badge/LINKEDIN-Josué_Chacae-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-      alt="LinkedIn"
-    />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://github.com/chacaejosue">
-    <img
-      src="https://img.shields.io/badge/GITHUB-chacaejosue-181717?style=for-the-badge&logo=github&logoColor=white"
-      alt="GitHub"
-    />
+  <a href="https://josuechacae.dev/cv-josue-chacae.pdf">
+    <img src="https://img.shields.io/badge/CV_PDF-0ea5e9?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="CV" />
+  </a>
+  <a href="https://josuechacae.dev/#contacto">
+    <img src="https://img.shields.io/badge/Contacto-1e293b?style=flat-square&logo=mailgun&logoColor=white" alt="Contacto" />
   </a>
 </p>
 
----
-
-## Perfil
-
-Actualmente curso el **7.º semestre de Ingeniería en Sistemas** en la Universidad Autónoma Gabriel René Moreno, Facultad Integral del Chaco.
-
-Mi formación e intereses abarcan distintas áreas de tecnología, especialmente **ciberseguridad, desarrollo de software, bases de datos, redes, soporte TI y cloud computing**.
-
-Me interesa comprender cómo funcionan las tecnologías, aplicarlas en situaciones reales y seguir ampliando mi base técnica mediante proyectos académicos, personales y aprendizaje continuo.
-
----
-
-## Tecnologías y herramientas
-
-### Desarrollo
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-</p>
-
-### Datos y modelado
-
-<p>
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square" />
-  <img src="https://img.shields.io/badge/UML-Modelado-5C6BC0?style=flat-square" />
-</p>
-
-### Sistemas y herramientas
-
-<p>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redes-1F6FEB?style=flat-square" />
-  <img src="https://img.shields.io/badge/Scrum-6DB33F?style=flat-square" />
+<p align="center">
+  Estudiante de Ingeniería en Sistemas en la UAGRM enfocado en <strong>ciberseguridad</strong>, <strong>desarrollo backend</strong> e <strong>infraestructura TI</strong>.<br>
+  En formación académica activa; abierto a consultas sobre <strong>pasantías</strong>, <strong>prácticas</strong> y <strong>proyectos de software</strong>.
 </p>
 
 ---
@@ -82,83 +41,89 @@ Me interesa comprender cómo funcionan las tecnologías, aplicarlas en situacion
 <table>
 <tr>
 <td width="50%" valign="top">
-
-### PassForge
-
-Proyecto personal en Python que documenta la evolución de un generador básico de contraseñas hacia una versión más adecuada para seguridad utilizando `secrets`.
-
-**Tecnologías**
-
-`Python` · `Ciberseguridad` · `Código seguro`
-
+  <a href="https://github.com/chacaejosue/finpal">
+    <img src="./assets/projects/finpal.svg" alt="FinPal" width="100%">
+  </a>
+  <br><br>
+  <strong><a href="https://github.com/chacaejosue/finpal">FinPal</a></strong><br>
+  Control de finanzas personales y préstamos con simulador francés, PostgreSQL RLS y cifrado en servidor.<br><br>
+  <sub><code>Next.js 16</code> &bull; <code>TypeScript</code> &bull; <code>Supabase</code> &bull; <code>PostgreSQL</code></sub><br>
+  <sub><a href="https://github.com/chacaejosue/finpal">Ver repositorio &rarr;</a></sub>
 </td>
 <td width="50%" valign="top">
-
-### Finora
-
-Sistema web desarrollado en Laravel para apoyar la gestión comercial y financiera de ventas por catálogo, centralizando productos, inventario, ventas, compras, créditos y reportes.
-
-**Tecnologías**
-
-`Laravel` · `PHP` · `MySQL`
-
+  <a href="https://github.com/chacaejosue/pass-forge">
+    <img src="./assets/projects/passforge.svg" alt="PassForge" width="100%">
+  </a>
+  <br><br>
+  <strong><a href="https://github.com/chacaejosue/pass-forge">PassForge</a></strong><br>
+  Generador seguro de contraseñas basado en <code>secrets</code> (CSPRNG), con Flask API y cliente en Astro.<br><br>
+  <sub><code>Python 3</code> &bull; <code>Flask API</code> &bull; <code>Astro</code> &bull; <code>CSPRNG</code></sub><br>
+  <sub><a href="https://passforge.vercel.app/">Probar demo en vivo &rarr;</a></sub>
 </td>
 </tr>
 <tr>
-<td valign="middle">
-
-[Ver repositorio](https://github.com/chacaejosue/pass-forge)
-
-</td>
-<td valign="middle">
-
-[Ver repositorio](https://github.com/chacaejosue/sistema-informacion-web.git)
-
-</td>
-</tr>
-
-<tr>
 <td width="50%" valign="top">
-
-### BodyIndex
-
-Aplicación de consola en Python para calcular, validar y clasificar métricas corporales como IMC, metabolismo basal y gasto energético estimado.
-
-**Tecnologías**
-
-`Python` · `CLI` · `Validación`
-
+  <a href="https://github.com/chacaejosue/finora">
+    <img src="./assets/projects/finora.svg" alt="Finora" width="100%">
+  </a>
+  <br><br>
+  <strong><a href="https://github.com/chacaejosue/finora">Finora</a></strong><br>
+  Sistema de venta directa por catálogo con inventario kardex, cobranzas en cuotas y reportería comercial.<br><br>
+  <sub><code>Laravel MVC</code> &bull; <code>PHP 8</code> &bull; <code>MySQL</code> &bull; <code>Scrum</code></sub><br>
+  <sub><a href="https://github.com/chacaejosue/finora">Ver repositorio &rarr;</a></sub>
 </td>
 <td width="50%" valign="top">
-
-### Sistema de ventas
-
-Prototipo académico orientado a la gestión comercial y financiera de emprendimientos independientes de venta por catálogo.
-
-**Tecnologías**
-
-`Laravel` · `SQL Server` · `Desarrollo web`
-
-</td>
-</tr>
-<tr>
-<td valign="middle">
-
-[Ver repositorio](https://github.com/chacaejosue/body-index)
-
-</td>
-<td valign="middle">
-
-[Ver prototipo](https://github.com/chacaejosue/sistema-ventas)
-
+  <a href="https://github.com/chacaejosue/body-index">
+    <img src="./assets/projects/body-index.svg" alt="BodyIndex" width="100%">
+  </a>
+  <br><br>
+  <strong><a href="https://github.com/chacaejosue/body-index">BodyIndex</a></strong><br>
+  Suite de análisis biométrico que integra ecuaciones científicas para cálculo de IMC, TMB y macronutrientes.<br><br>
+  <sub><code>Python 3</code> &bull; <code>FastAPI</code> &bull; <code>Next.js</code> &bull; <code>CLI</code></sub><br>
+  <sub><a href="https://github.com/chacaejosue/body-index">Ver repositorio &rarr;</a></sub>
 </td>
 </tr>
 </table>
 
 <p align="center">
   <a href="https://josuechacae.dev">
-    Ver más proyectos en josuechacae.dev
+    <strong>Explorar todos los proyectos en josuechacae.dev &rarr;</strong>
   </a>
+</p>
+
+---
+
+## Stack tecnológico
+
+<table>
+<tr>
+<td width="50%" valign="top">
+  <strong>Lenguajes</strong><br><br>
+  <code>Python 3</code> &bull; <code>TypeScript</code> &bull; <code>JavaScript</code><br>
+  <code>PHP 8</code> &bull; <code>Java</code> &bull; <code>SQL</code>
+</td>
+<td width="50%" valign="top">
+  <strong>Backend & Web</strong><br><br>
+  <code>Next.js 15</code> &bull; <code>Flask REST API</code> &bull; <code>Laravel MVC</code><br>
+  <code>Astro</code> &bull; <code>Tailwind CSS</code>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <strong>Bases de Datos</strong><br><br>
+  <code>PostgreSQL</code> &bull; <code>Supabase</code> &bull; <code>MySQL</code><br>
+  <code>SQL Server</code> &bull; <code>Modelado UML</code>
+</td>
+<td width="50%" valign="top">
+  <strong>Seguridad & Herramientas</strong><br><br>
+  <code>CSPRNG & Criptografía</code> &bull; <code>Linux CLI</code><br>
+  <code>Git / GitHub</code> &bull; <code>Redes TCP/IP</code> &bull; <code>Scrum</code>
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <sub><strong>Competencia idiomática:</strong> Español (Nativo) &bull; Inglés (EF SET Certificado B1 — Lectura Técnica C1 Advanced)</sub>
 </p>
 
 ---
@@ -166,55 +131,55 @@ Prototipo académico orientado a la gestión comercial y financiera de emprendim
 ## Actividad en GitHub
 
 <p align="center">
-  <img
-    height="170"
-    src="./profile/stats.svg"
-    alt="Estadísticas de GitHub de Josué Chacae"
-  />
-  <img
-    height="170"
-    src="./profile/top-langs.svg"
-    alt="Lenguajes más utilizados"
-  />
-</p>
-
-<p align="center">
-  <sub>
-    Las estadísticas reflejan principalmente actividad y repositorios públicos y no representan por sí solas el nivel de dominio de cada tecnología.
-  </sub>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile/github-snake.svg">
+    <img alt="Historial de contribuciones animado — Josué Chacae" src="./profile/github-snake-dark.svg" width="100%">
+  </picture>
 </p>
 
 ---
 
-## Formación complementaria
+## Certificaciones
 
-| Certificación | Emisor | Año |
-|---|---|---:|
-| Google Cybersecurity Professional Certificate | Google | 2026 |
-| Scrum Master Certification | LearnQuest | 2026 |
-| Google Digital Marketing & E-commerce Professional Certificate | Google | 2026 |
-
----
-
-## Áreas de interés
-
-`Ciberseguridad` · `Desarrollo de software` · `Cloud Computing` · `Soporte TI` · `Redes` · `Sistemas de información`
+<table>
+<tr>
+<td width="50%" valign="top">
+  <strong><a href="https://www.coursera.org/account/accomplishments/professional-cert/certificate/X400VUDVHB51">Google Cybersecurity Certificate</a></strong><br>
+  <sub><code>Google</code> &bull; <code>2026</code> &bull; <a href="https://www.coursera.org/account/accomplishments/professional-cert/certificate/X400VUDVHB51">Verificar credencial &rarr;</a></sub><br><br>
+  <sub>Seguridad en redes, Linux CLI, scripts en Python para análisis de tráfico, SIEM y gestión de vulnerabilidades.</sub>
+</td>
+<td width="50%" valign="top">
+  <strong><a href="https://www.coursera.org/account/accomplishments/professional-cert/certificate/OYXOQLK4VQ7X">Microsoft Python Development</a></strong><br>
+  <sub><code>Microsoft</code> &bull; <code>2026</code> &bull; <a href="https://www.coursera.org/account/accomplishments/professional-cert/certificate/OYXOQLK4VQ7X">Verificar credencial &rarr;</a></sub><br><br>
+  <sub>Fundamentos y estructuras avanzadas en Python, desarrollo de APIs, buenas prácticas de ingeniería y testing.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <strong><a href="https://cert.efset.org/en/uQqx1M">EF SET English Certificate</a></strong><br>
+  <sub><code>EF SET</code> &bull; <code>2026</code> &bull; <a href="https://cert.efset.org/en/uQqx1M">Verificar credencial &rarr;</a></sub><br><br>
+  <sub>Certificación CEFR B1 — Competencia C1 Advanced en lectura y comprensión de documentación técnica.</sub>
+</td>
+<td width="50%" valign="top">
+  <strong><a href="https://www.coursera.org/account/accomplishments/professional-cert/certificate/1XAJ7P5ST4YR">Google Digital Marketing & E-commerce</a></strong><br>
+  <sub><code>Google</code> &bull; <code>2026</code> &bull; <a href="https://www.coursera.org/account/accomplishments/professional-cert/certificate/1XAJ7P5ST4YR">Verificar credencial &rarr;</a></sub><br><br>
+  <sub>Estrategias de analítica web, modelos comerciales y optimización de conversión.</sub>
+</td>
+</tr>
+</table>
 
 ---
 
 ## Contacto
 
-<p>
-  <strong>Portafolio</strong><br>
-  <a href="https://josuechacae.dev">josuechacae.dev</a>
-</p>
-
-<p>
-  <strong>LinkedIn</strong><br>
-  <a href="https://www.linkedin.com/in/chacae-josue">linkedin.com/in/chacae-josue</a>
-</p>
-
-<p>
-  <strong>GitHub</strong><br>
-  <a href="https://github.com/chacaejosue">github.com/chacaejosue</a>
+<p align="center">
+  Actualmente en formación académica. Abierto a consultas sobre pasantías, prácticas y proyectos:<br><br>
+  <a href="https://josuechacae.dev/#contacto">
+    <strong>Canal de contacto y correo seguro en josuechacae.dev &rarr;</strong>
+  </a>
+  <br><br>
+  <a href="https://www.linkedin.com/in/chacae-josue">LinkedIn</a> &bull;
+  <a href="https://josuechacae.dev">Portafolio</a> &bull;
+  <a href="https://josuechacae.dev/cv-josue-chacae.pdf">Descargar CV (PDF)</a>
 </p>
