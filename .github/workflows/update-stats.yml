@@ -3,7 +3,7 @@ name: Actualizar estadísticas del perfil
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 6 * * 1"
 
 permissions:
   contents: write
@@ -20,7 +20,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=chacaejosue&show_icons=true&hide_border=true&locale=es&card_width=520&bg_color=0D1117&title_color=35D0C5&text_color=C9D1D9&icon_color=35D0C5
+          options: username=chacaejosue&show_icons=true&hide_border=true&hide_rank=true&locale=es&card_width=520&bg_color=0D1117&title_color=35D0C5&text_color=C9D1D9&icon_color=35D0C5
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -32,14 +32,22 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Guardar tarjetas si cambiaron
+      - name: Generar animación de contribuciones (Snake)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/github-snake.svg?color_snake=#0d9488&color_dots=#ebedf0,#99f6e4,#5eead4,#14b8a6,#0f766e
+            profile/github-snake-dark.svg?palette=github-dark&color_snake=#00f5ea&color_dots=#161b22,#0c3842,#0e6b77,#14b8a6,#00f5ea
+
+      - name: Guardar tarjetas y gráficos si cambiaron
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/stats.svg profile/top-langs.svg
+          git add profile/
           if git diff --cached --quiet; then
-            echo "Las estadísticas no cambiaron."
+            echo "No hubo cambios en las estadísticas ni gráficos."
             exit 0
           fi
-          git commit -m "chore(stats): actualizar estadísticas del perfil"
+          git commit -m "chore(stats): actualizar estadísticas y gráfico de contribuciones"
           git push
