@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Estad&#237;sticas de GitHub de Josu&#233; Nicol&#225;s Chacae Veizaga</title>
-        <desc id="descId">Estrellas totales: 1, Commits totales  (El a&#241;o pasado) : 56, PRs totales: 31, Issues totales: 8, Contribuciones en (el a&#241;o pasado): 0</desc>
+        <desc id="descId">Estrellas totales: 1, Commits totales  (El a&#241;o pasado) : 75, PRs totales: 48, Issues totales: 8, Contribuciones en (el a&#241;o pasado): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -171,7 +171,7 @@
         x="274.01"
         y="12.5"
         data-testid="commits"
-      >56</text>
+      >75</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -186,7 +186,7 @@
         x="274.01"
         y="12.5"
         data-testid="prs"
-      >31</text>
+      >48</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
