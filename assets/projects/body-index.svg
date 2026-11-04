@@ -37,28 +37,28 @@
   <rect width="880" height="495" fill="url(#bi-bg)"/>
   <rect width="880" height="495" fill="url(#bi-cad)"/>
 
-  <!-- Marco de la Ventana Web -->
-  <rect x="25" y="18" width="830" height="459" rx="14" fill="#0b111a" stroke="#1e293b" stroke-width="1.2"/>
+  <!-- Marco de la Ventana Web (Idéntico a FinPal, PassForge y Finora: 830x455 en 25,20) -->
+  <rect x="25" y="20" width="830" height="455" rx="14" fill="#0b111a" stroke="#1e293b" stroke-width="1.2"/>
 
   <!-- Barra Superior de Navegación -->
-  <path d="M 25 32 A 14 14 0 0 1 39 18 L 841 18 A 14 14 0 0 1 855 32 L 855 54 L 25 54 Z" fill="#111827"/>
-  <line x1="25" y1="54" x2="855" y2="54" stroke="#1e293b" stroke-width="1"/>
+  <path d="M 25 34 A 14 14 0 0 1 39 20 L 841 20 A 14 14 0 0 1 855 34 L 855 58 L 25 58 Z" fill="#111827"/>
+  <line x1="25" y1="58" x2="855" y2="58" stroke="#1e293b" stroke-width="1"/>
 
   <!-- Botones macOS -->
-  <circle cx="48" cy="36" r="5" fill="#f43f5e" fill-opacity="0.9"/>
-  <circle cx="66" cy="36" r="5" fill="#fbbf24" fill-opacity="0.9"/>
-  <circle cx="84" cy="36" r="5" fill="#10b981" fill-opacity="0.9"/>
+  <circle cx="48" cy="39" r="5" fill="#f43f5e" fill-opacity="0.9"/>
+  <circle cx="66" cy="39" r="5" fill="#fbbf24" fill-opacity="0.9"/>
+  <circle cx="84" cy="39" r="5" fill="#10b981" fill-opacity="0.9"/>
 
   <!-- URL de la Web -->
-  <text x="105" y="40" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="11">bodyindex-fresh.vercel.app</text>
+  <text x="105" y="43" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="11">bodyindex-fresh.vercel.app</text>
 
   <!-- Insignia Motor: FastAPI -->
-  <rect x="650" y="25" width="185" height="22" rx="11" fill="#064e3b" fill-opacity="0.35" stroke="#059669" stroke-width="0.8"/>
-  <circle cx="664" cy="36" r="3.5" fill="#34d399"/>
-  <text x="675" y="40" fill="#34d399" font-family="system-ui, sans-serif" font-size="10.5" font-weight="600">Motor: FastAPI en vivo</text>
+  <rect x="650" y="28" width="185" height="22" rx="11" fill="#064e3b" fill-opacity="0.35" stroke="#059669" stroke-width="0.8"/>
+  <circle cx="664" cy="39" r="3.5" fill="#34d399"/>
+  <text x="675" y="43" fill="#34d399" font-family="system-ui, sans-serif" font-size="10.5" font-weight="600">Motor: FastAPI en vivo</text>
 
   <!-- Cabecera del Panel Principal con Logo Oficial de BodyIndex -->
-  <g transform="translate(50, 68)">
+  <g transform="translate(50, 75)">
     <!-- Logotipo Oficial Vectorial de BodyIndex -->
     <g transform="translate(0, 0) scale(0.038)">
       <!-- Semicírculo envolvente simétrico -->
@@ -103,50 +103,50 @@
     <text x="664" y="22" fill="#2dd4bf" font-family="ui-monospace, monospace" font-size="10" font-weight="700">TMB 1,715 kcal</text>
   </g>
 
-  <!-- Grilla de 3 Métricas Centrales -->
-  <g transform="translate(50, 115)">
+  <!-- Grilla de 3 Métricas Centrales (Fila 2: translate 50, 125 - Altura 68) -->
+  <g transform="translate(50, 125)">
     <!-- Métrica 1: IMC Estándar -->
-    <rect x="0" y="0" width="248" height="64" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="14" y="19" fill="#64748b" font-family="system-ui, sans-serif" font-size="9" font-weight="600" letter-spacing="0.5">IMC ESTÁNDAR</text>
-    <text x="14" y="42" fill="#f8fafc" font-family="ui-monospace, monospace" font-size="16" font-weight="700">
+    <rect x="0" y="0" width="248" height="68" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="20" fill="#64748b" font-family="system-ui, sans-serif" font-size="9" font-weight="600" letter-spacing="0.5">IMC ESTÁNDAR</text>
+    <text x="14" y="44" fill="#f8fafc" font-family="ui-monospace, monospace" font-size="16" font-weight="700">
       23.9 <tspan font-size="10" font-weight="400" fill="#94a3b8">kg/m²</tspan>
     </text>
-    <text x="14" y="56" fill="#10b981" font-family="ui-monospace, monospace" font-size="9.5" font-weight="600">Normopeso OMS</text>
+    <text x="14" y="59" fill="#10b981" font-family="ui-monospace, monospace" font-size="9.5" font-weight="600">Normopeso OMS</text>
 
     <!-- Métrica 2: Metab. Basal -->
-    <rect x="266" y="0" width="248" height="64" rx="8" fill="#042f2e" fill-opacity="0.3" stroke="#0d9488" stroke-width="1" stroke-opacity="0.4"/>
-    <text x="280" y="19" fill="#2dd4bf" font-family="system-ui, sans-serif" font-size="9" font-weight="600" letter-spacing="0.5">METAB. BASAL</text>
-    <text x="280" y="42" fill="#2dd4bf" font-family="ui-monospace, monospace" font-size="16" font-weight="700">
+    <rect x="266" y="0" width="248" height="68" rx="8" fill="#042f2e" fill-opacity="0.3" stroke="#0d9488" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="280" y="20" fill="#2dd4bf" font-family="system-ui, sans-serif" font-size="9" font-weight="600" letter-spacing="0.5">METAB. BASAL</text>
+    <text x="280" y="44" fill="#2dd4bf" font-family="ui-monospace, monospace" font-size="16" font-weight="700">
       1,715 <tspan font-size="10" font-weight="400" fill="#94a3b8">kcal</tspan>
     </text>
-    <text x="280" y="56" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="9.5">Gasto en reposo</text>
+    <text x="280" y="59" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="9.5">Gasto en reposo</text>
 
     <!-- Métrica 3: Meta Diaria -->
-    <rect x="532" y="0" width="248" height="64" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="546" y="19" fill="#64748b" font-family="system-ui, sans-serif" font-size="9" font-weight="600" letter-spacing="0.5">META DIARIA</text>
-    <text x="546" y="42" fill="#f8fafc" font-family="ui-monospace, monospace" font-size="16" font-weight="700">
+    <rect x="532" y="0" width="248" height="68" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="546" y="20" fill="#64748b" font-family="system-ui, sans-serif" font-size="9" font-weight="600" letter-spacing="0.5">META DIARIA</text>
+    <text x="546" y="44" fill="#f8fafc" font-family="ui-monospace, monospace" font-size="16" font-weight="700">
       2,658 <tspan font-size="10" font-weight="400" fill="#94a3b8">kcal</tspan>
     </text>
-    <text x="546" y="56" fill="#10b981" font-family="ui-monospace, monospace" font-size="9.5" font-weight="600">Mantenimiento</text>
+    <text x="546" y="59" fill="#10b981" font-family="ui-monospace, monospace" font-size="9.5" font-weight="600">Mantenimiento</text>
   </g>
 
-  <!-- Desglose de Macronutrientes y Proyección Semanal -->
-  <g transform="translate(50, 192)">
-    <rect x="0" y="0" width="780" height="268" rx="10" fill="#0c121e" stroke="#1e293b" stroke-width="1"/>
+  <!-- Desglose de Macronutrientes y Proyección Semanal (Fila 3: translate 50, 208 - Altura 248) -->
+  <g transform="translate(50, 208)">
+    <rect x="0" y="0" width="780" height="248" rx="10" fill="#0c121e" stroke="#1e293b" stroke-width="1"/>
 
     <!-- Título y Normas ISSN -->
-    <text x="18" y="24" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11.5" font-weight="700">Reparto de Macronutrientes y Perfil</text>
-    <text x="762" y="24" fill="#2dd4bf" font-family="ui-monospace, monospace" font-size="10" font-weight="600" text-anchor="end">Normas ISSN</text>
+    <text x="18" y="22" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11.5" font-weight="700">Reparto de Macronutrientes y Perfil</text>
+    <text x="762" y="22" fill="#2dd4bf" font-family="ui-monospace, monospace" font-size="10" font-weight="600" text-anchor="end">Normas ISSN</text>
 
     <!-- Barra segmentada de macronutrientes: P 30% / G 30% / C 40% -->
-    <g transform="translate(18, 36)">
-      <rect x="0" y="0" width="744" height="64" rx="7" fill="#06090f" stroke="#1e293b" stroke-width="0.9"/>
+    <g transform="translate(18, 34)">
+      <rect x="0" y="0" width="744" height="60" rx="7" fill="#06090f" stroke="#1e293b" stroke-width="0.9"/>
 
-      <text x="16" y="22" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11" font-weight="600">P 148g • G 89g • C 266g</text>
-      <text x="728" y="22" fill="#2dd4bf" font-family="ui-monospace, monospace" font-size="10" font-weight="700" text-anchor="end">30 / 30 / 40%</text>
+      <text x="16" y="20" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11" font-weight="600">P 148g • G 89g • C 266g</text>
+      <text x="728" y="20" fill="#2dd4bf" font-family="ui-monospace, monospace" font-size="10" font-weight="700" text-anchor="end">30 / 30 / 40%</text>
 
       <!-- Barra de progreso segmentada -->
-      <g transform="translate(16, 32)">
+      <g transform="translate(16, 29)">
         <rect x="0" y="0" width="712" height="7" rx="3.5" fill="#1e293b"/>
         <!-- Proteínas (30%) -->
         <rect x="0" y="0" width="213.6" height="7" rx="3.5" fill="#0d9488"/>
@@ -157,7 +157,7 @@
       </g>
 
       <!-- Leyenda sutil de macronutrientes -->
-      <g transform="translate(16, 52)">
+      <g transform="translate(16, 48)">
         <circle cx="4" cy="0" r="3" fill="#0d9488"/>
         <text x="11" y="3" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9">Proteínas (30%)</text>
 
@@ -170,29 +170,29 @@
     </g>
 
     <!-- Ficha resumen del perfil y ritmo semanal -->
-    <g transform="translate(18, 114)">
-      <rect x="0" y="0" width="744" height="64" rx="7" fill="#080d16" stroke="#1e293b" stroke-width="0.8"/>
+    <g transform="translate(18, 102)">
+      <rect x="0" y="0" width="744" height="60" rx="7" fill="#080d16" stroke="#1e293b" stroke-width="0.8"/>
       <!-- Icono Check en caja -->
-      <rect x="12" y="16" width="32" height="32" rx="6" fill="#0d9488" fill-opacity="0.15" stroke="#0d9488" stroke-width="0.8"/>
-      <path d="M 22 32 L 26 36 L 34 27" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="12" y="14" width="32" height="32" rx="6" fill="#0d9488" fill-opacity="0.15" stroke="#0d9488" stroke-width="0.8"/>
+      <path d="M 22 30 L 26 34 L 34 25" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 
-      <text x="56" y="30" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11.5" font-weight="600">M • 26 años • 74.0 kg • 1.76 m • Moderado</text>
-      <text x="56" y="46" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9.5">Ritmo: Peso estable (0.0 kg/sem) • Recomposición metabólica</text>
+      <text x="56" y="28" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11.5" font-weight="600">M • 26 años • 74.0 kg • 1.76 m • Moderado</text>
+      <text x="56" y="44" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9.5">Ritmo: Peso estable (0.0 kg/sem) • Recomposición metabólica</text>
 
-      <text x="726" y="38" fill="#10b981" font-family="ui-monospace, monospace" font-size="12" font-weight="700" text-anchor="end">2,658 kcal</text>
+      <text x="726" y="36" fill="#10b981" font-family="ui-monospace, monospace" font-size="12" font-weight="700" text-anchor="end">2,658 kcal</text>
     </g>
 
     <!-- Tarjeta de validación de algoritmos clínicos -->
-    <g transform="translate(18, 190)">
-      <rect x="0" y="0" width="744" height="64" rx="7" fill="#080d16" stroke="#1e293b" stroke-width="0.8"/>
+    <g transform="translate(18, 170)">
+      <rect x="0" y="0" width="744" height="60" rx="7" fill="#080d16" stroke="#1e293b" stroke-width="0.8"/>
       <!-- Icono Actividad/Rendimiento en caja -->
-      <rect x="12" y="16" width="32" height="32" rx="6" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="0.8"/>
-      <path d="M 20 32 L 24 32 L 27 25 L 31 39 L 34 32 L 38 32" fill="none" stroke="#34d399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="12" y="14" width="32" height="32" rx="6" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="0.8"/>
+      <path d="M 20 30 L 24 30 L 27 23 L 31 37 L 34 30 L 38 30" fill="none" stroke="#34d399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
 
-      <text x="56" y="30" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11.5" font-weight="600">Cálculo de TDEE con factor de actividad revisado</text>
-      <text x="56" y="46" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9.5">Algoritmo clínico determinista validado contra tablas antropométricas de la OMS</text>
+      <text x="56" y="28" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11.5" font-weight="600">Cálculo de TDEE con factor de actividad revisado</text>
+      <text x="56" y="44" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9.5">Algoritmo clínico determinista validado contra tablas antropométricas de la OMS</text>
 
-      <text x="726" y="38" fill="#2dd4bf" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700" text-anchor="end">FastAPI 0.115</text>
+      <text x="726" y="36" fill="#2dd4bf" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700" text-anchor="end">FastAPI 0.115</text>
     </g>
   </g>
 </svg>
