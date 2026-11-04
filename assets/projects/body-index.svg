@@ -1,105 +1,198 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 495" width="100%" height="100%">
   <defs>
     <linearGradient id="bi-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#09090b"/>
-      <stop offset="100%" stop-color="#111116"/>
+      <stop offset="0%" stop-color="#080d16"/>
+      <stop offset="100%" stop-color="#0c121e"/>
     </linearGradient>
     <pattern id="bi-cad" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#27272a" stroke-width="0.6" stroke-opacity="0.3"/>
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.35"/>
     </pattern>
+
+    <!-- Gradiente espectral del semicírculo oficial de BodyIndex -->
+    <linearGradient id="bodyIndexArchGrad" x1="10%" y1="65%" x2="90%" y2="65%">
+      <stop offset="0%" stop-color="#00a86b" />
+      <stop offset="25%" stop-color="#10b981" />
+      <stop offset="48%" stop-color="#84cc16" />
+      <stop offset="70%" stop-color="#facc15" />
+      <stop offset="88%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+
+    <!-- Gradiente de la silueta corporal humana -->
+    <linearGradient id="bodyIndexFigureGrad" x1="50%" y1="20%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#0b726b" />
+      <stop offset="45%" stop-color="#0d9488" />
+      <stop offset="75%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+
+    <!-- Gradiente de la cabeza -->
+    <linearGradient id="bodyIndexHeadGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
   </defs>
 
+  <!-- Fondo Canvas -->
   <rect width="880" height="495" fill="url(#bi-bg)"/>
   <rect width="880" height="495" fill="url(#bi-cad)"/>
 
-  <!-- Window Frame -->
-  <rect x="25" y="20" width="830" height="455" rx="14" fill="#09090d" stroke="#27272a" stroke-width="1.2"/>
+  <!-- Marco de la Ventana Web (Idéntico a FinPal, PassForge y Finora: 830x455 en 25,20) -->
+  <rect x="25" y="20" width="830" height="455" rx="14" fill="#0b111a" stroke="#1e293b" stroke-width="1.2"/>
 
-  <!-- Window Header -->
-  <path d="M 25 34 A 14 14 0 0 1 39 20 L 841 20 A 14 14 0 0 1 855 34 L 855 58 L 25 58 Z" fill="#141419"/>
-  <line x1="25" y1="58" x2="855" y2="58" stroke="#27272a" stroke-width="1"/>
+  <!-- Barra Superior de Navegación -->
+  <path d="M 25 34 A 14 14 0 0 1 39 20 L 841 20 A 14 14 0 0 1 855 34 L 855 58 L 25 58 Z" fill="#111827"/>
+  <line x1="25" y1="58" x2="855" y2="58" stroke="#1e293b" stroke-width="1"/>
 
+  <!-- Botones macOS -->
   <circle cx="48" cy="39" r="5" fill="#f43f5e" fill-opacity="0.9"/>
   <circle cx="66" cy="39" r="5" fill="#fbbf24" fill-opacity="0.9"/>
   <circle cx="84" cy="39" r="5" fill="#10b981" fill-opacity="0.9"/>
 
-  <text x="105" y="43" fill="#a1a1aa" font-family="ui-monospace, monospace" font-size="11">josue@dev: ~/body-index — python src/analizador.py</text>
+  <!-- URL de la Web -->
+  <text x="105" y="43" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="11">bodyindex-fresh.vercel.app</text>
 
-  <rect x="710" y="28" width="125" height="22" rx="11" fill="#064e3b" fill-opacity="0.35" stroke="#059669" stroke-width="0.8"/>
-  <circle cx="724" cy="39" r="3.5" fill="#34d399"/>
-  <text x="735" y="43" fill="#34d399" font-family="system-ui, sans-serif" font-size="10.5" font-weight="600">CLI Activa</text>
+  <!-- Insignia Motor: FastAPI -->
+  <rect x="650" y="28" width="185" height="22" rx="11" fill="#064e3b" fill-opacity="0.35" stroke="#059669" stroke-width="0.8"/>
+  <circle cx="664" cy="39" r="3.5" fill="#34d399"/>
+  <text x="675" y="43" fill="#34d399" font-family="system-ui, sans-serif" font-size="10.5" font-weight="600">Motor: FastAPI en vivo</text>
 
-  <!-- Terminal Content Body -->
-  <g transform="translate(50, 80)" font-family="ui-monospace, monospace">
-    <!-- Prompt line -->
-    <text x="0" y="0" font-size="12">
-      <tspan fill="#34d399" font-weight="700">➜ </tspan>
-      <tspan fill="#38bdf8" font-weight="700">body-index </tspan>
-      <tspan fill="#94a3b8">git:(main) </tspan>
-      <tspan fill="#f1f5f9">python -m src.cli</tspan>
+  <!-- Cabecera del Panel Principal con Logo Oficial de BodyIndex -->
+  <g transform="translate(50, 75)">
+    <!-- Logotipo Oficial Vectorial de BodyIndex -->
+    <g transform="translate(0, 0) scale(0.038)">
+      <!-- Semicírculo envolvente simétrico -->
+      <path
+        d="M 152 650 A 375 375 0 1 1 848 650"
+        stroke="url(#bodyIndexArchGrad)"
+        stroke-width="96"
+        stroke-linecap="round"
+      />
+      <!-- Cabeza anatómica -->
+      <circle cx="500" cy="395" r="80" fill="url(#bodyIndexHeadGrad)" />
+      <!-- Silueta corporal estilizada -->
+      <path
+        d="
+          M 500 514
+          C 472 514 380 456 284 411
+          C 256 399 240 417 252 437
+          C 260 450 274 466 294 476
+          C 334 502 376 544 415 598
+          C 428 622 436 652 448 698
+          C 460 746 470 798 482 842
+          C 488 858 512 858 518 842
+          C 530 798 540 746 552 698
+          C 564 652 572 622 585 598
+          C 624 544 666 502 706 476
+          C 726 466 740 450 748 437
+          C 760 417 744 399 716 411
+          C 620 456 528 514 500 514
+          Z
+        "
+        fill="url(#bodyIndexFigureGrad)"
+      />
+    </g>
+
+    <text x="44" y="16" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Reporte Biométrico y Energético</text>
+    <text x="44" y="30" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Mifflin-St Jeor (1990) • Directrices ISSN</text>
+
+    <!-- Badge TMB 1,715 kcal -->
+    <rect x="635" y="6" width="145" height="23" rx="5" fill="#0d9488" fill-opacity="0.15" stroke="#0d9488" stroke-width="0.8"/>
+    <!-- Ícono de llama metabólica -->
+    <path d="M 648 23 C 646 20 648 16 652 13 C 653 16 655 17 657 15 C 658 18 658 22 654 24 C 651 25.5 649 24.5 648 23 Z" fill="#f59e0b"/>
+    <text x="664" y="22" fill="#2dd4bf" font-family="ui-monospace, monospace" font-size="10" font-weight="700">TMB 1,715 kcal</text>
+  </g>
+
+  <!-- Grilla de 3 Métricas Centrales (Fila 2: translate 50, 125 - Altura 68) -->
+  <g transform="translate(50, 125)">
+    <!-- Métrica 1: IMC Estándar -->
+    <rect x="0" y="0" width="248" height="68" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="20" fill="#64748b" font-family="system-ui, sans-serif" font-size="9" font-weight="600" letter-spacing="0.5">IMC ESTÁNDAR</text>
+    <text x="14" y="44" fill="#f8fafc" font-family="ui-monospace, monospace" font-size="16" font-weight="700">
+      23.9 <tspan font-size="10" font-weight="400" fill="#94a3b8">kg/m²</tspan>
     </text>
+    <text x="14" y="59" fill="#10b981" font-family="ui-monospace, monospace" font-size="9.5" font-weight="600">Normopeso OMS</text>
 
-    <!-- Header Box in ASCII style -->
-    <text x="0" y="24" fill="#a855f7" font-size="10.5" font-weight="700">┌──────────────────────────────────────────────────────────────────────┐</text>
-    <text x="0" y="38" fill="#c084fc" font-size="10.5" font-weight="700">│               BODYINDEX v1.2 • ANALIZADOR BIOMÉTRICO                 │</text>
-    <text x="0" y="52" fill="#a855f7" font-size="10.5" font-weight="700">└──────────────────────────────────────────────────────────────────────┘</text>
+    <!-- Métrica 2: Metab. Basal -->
+    <rect x="266" y="0" width="248" height="68" rx="8" fill="#042f2e" fill-opacity="0.3" stroke="#0d9488" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="280" y="20" fill="#2dd4bf" font-family="system-ui, sans-serif" font-size="9" font-weight="600" letter-spacing="0.5">METAB. BASAL</text>
+    <text x="280" y="44" fill="#2dd4bf" font-family="ui-monospace, monospace" font-size="16" font-weight="700">
+      1,715 <tspan font-size="10" font-weight="400" fill="#94a3b8">kcal</tspan>
+    </text>
+    <text x="280" y="59" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="9.5">Gasto en reposo</text>
 
-    <!-- Interactive prompts simulation -->
-    <g transform="translate(0, 65)">
-      <rect x="0" y="0" width="780" height="105" rx="8" fill="#120e1a" stroke="#2e1065" stroke-width="0.8"/>
-      <text x="18" y="22" fill="#e2e8f0" font-size="11" font-weight="600">Parámetros de entrada validados:</text>
-      
-      <text x="18" y="40" fill="#a1a1aa" font-size="11">Introduce tu sexo biológico (M/F):</text>
-      <text x="760" y="40" fill="#38bdf8" font-size="11" font-weight="700" text-anchor="end">Masculino [M]</text>
+    <!-- Métrica 3: Meta Diaria -->
+    <rect x="532" y="0" width="248" height="68" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="546" y="20" fill="#64748b" font-family="system-ui, sans-serif" font-size="9" font-weight="600" letter-spacing="0.5">META DIARIA</text>
+    <text x="546" y="44" fill="#f8fafc" font-family="ui-monospace, monospace" font-size="16" font-weight="700">
+      2,658 <tspan font-size="10" font-weight="400" fill="#94a3b8">kcal</tspan>
+    </text>
+    <text x="546" y="59" fill="#10b981" font-family="ui-monospace, monospace" font-size="9.5" font-weight="600">Mantenimiento</text>
+  </g>
 
-      <text x="18" y="58" fill="#a1a1aa" font-size="11">Introduce tu peso (kg):</text>
-      <text x="760" y="58" fill="#fbbf24" font-size="11" font-weight="700" text-anchor="end">74.0</text>
+  <!-- Desglose de Macronutrientes y Proyección Semanal (Fila 3: translate 50, 208 - Altura 248) -->
+  <g transform="translate(50, 208)">
+    <rect x="0" y="0" width="780" height="248" rx="10" fill="#0c121e" stroke="#1e293b" stroke-width="1"/>
 
-      <text x="18" y="76" fill="#a1a1aa" font-size="11">Introduce tu estatura (metros):</text>
-      <text x="760" y="76" fill="#fbbf24" font-size="11" font-weight="700" text-anchor="end">1.76</text>
+    <!-- Título y Normas ISSN -->
+    <text x="18" y="22" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11.5" font-weight="700">Reparto de Macronutrientes y Perfil</text>
+    <text x="762" y="22" fill="#2dd4bf" font-family="ui-monospace, monospace" font-size="10" font-weight="600" text-anchor="end">Normas ISSN</text>
 
-      <line x1="18" y1="84" x2="762" y2="84" stroke="#27272a" stroke-width="0.6"/>
-      <text x="18" y="94" fill="#a1a1aa" font-size="10">Nivel de actividad (1-5): <tspan fill="#c084fc" font-weight="700">3 (Moderado 3-5 d/sem)</tspan></text>
+    <!-- Barra segmentada de macronutrientes: P 30% / G 30% / C 40% -->
+    <g transform="translate(18, 34)">
+      <rect x="0" y="0" width="744" height="60" rx="7" fill="#06090f" stroke="#1e293b" stroke-width="0.9"/>
+
+      <text x="16" y="20" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11" font-weight="600">P 148g • G 89g • C 266g</text>
+      <text x="728" y="20" fill="#2dd4bf" font-family="ui-monospace, monospace" font-size="10" font-weight="700" text-anchor="end">30 / 30 / 40%</text>
+
+      <!-- Barra de progreso segmentada -->
+      <g transform="translate(16, 29)">
+        <rect x="0" y="0" width="712" height="7" rx="3.5" fill="#1e293b"/>
+        <!-- Proteínas (30%) -->
+        <rect x="0" y="0" width="213.6" height="7" rx="3.5" fill="#0d9488"/>
+        <!-- Grasas (30%) -->
+        <rect x="215.6" y="0" width="211.6" height="7" fill="#f59e0b"/>
+        <!-- Carbohidratos (40%) -->
+        <path d="M 429.2 0 L 708.5 0 A 3.5 3.5 0 0 1 712 3.5 A 3.5 3.5 0 0 1 708.5 7 L 429.2 7 Z" fill="#10b981"/>
+      </g>
+
+      <!-- Leyenda sutil de macronutrientes -->
+      <g transform="translate(16, 48)">
+        <circle cx="4" cy="0" r="3" fill="#0d9488"/>
+        <text x="11" y="3" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9">Proteínas (30%)</text>
+
+        <circle cx="114" cy="0" r="3" fill="#f59e0b"/>
+        <text x="121" y="3" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9">Grasas (30%)</text>
+
+        <circle cx="214" cy="0" r="3" fill="#10b981"/>
+        <text x="221" y="3" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9">Carbohidratos (40%)</text>
+      </g>
     </g>
 
-    <!-- Report Banner -->
-    <text x="0" y="188" fill="#a855f7" font-size="10.5" font-weight="700">========================================================================</text>
-    <text x="0" y="202" fill="#d8b4fe" font-size="11" font-weight="700">                             REPORTE FINAL                              </text>
-    <text x="0" y="216" fill="#a855f7" font-size="10.5" font-weight="700">========================================================================</text>
+    <!-- Ficha resumen del perfil y ritmo semanal -->
+    <g transform="translate(18, 102)">
+      <rect x="0" y="0" width="744" height="60" rx="7" fill="#080d16" stroke="#1e293b" stroke-width="0.8"/>
+      <!-- Icono Check en caja -->
+      <rect x="12" y="14" width="32" height="32" rx="6" fill="#0d9488" fill-opacity="0.15" stroke="#0d9488" stroke-width="0.8"/>
+      <path d="M 22 30 L 26 34 L 34 25" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Calculation Results Box -->
-    <g transform="translate(0, 230)">
-      <rect x="0" y="0" width="780" height="110" rx="8" fill="#120e1a" stroke="#7e22ce" stroke-width="0.8" stroke-opacity="0.4"/>
+      <text x="56" y="28" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11.5" font-weight="600">M • 26 años • 74.0 kg • 1.76 m • Moderado</text>
+      <text x="56" y="44" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9.5">Ritmo: Peso estable (0.0 kg/sem) • Recomposición metabólica</text>
 
-      <!-- IMC -->
-      <text x="18" y="26" fill="#a1a1aa" font-size="11.5">-&gt; IMC Calculado</text>
-      <text x="760" y="26" fill="#f4f4f5" font-size="13" font-weight="700" text-anchor="end">23.89</text>
-
-      <!-- Clasificación OMS -->
-      <text x="18" y="52" fill="#a1a1aa" font-size="11.5">-&gt; Clasificación OMS</text>
-      <rect x="585" y="38" width="177" height="20" rx="4" fill="#064e3b" fill-opacity="0.3" stroke="#059669" stroke-width="0.8"/>
-      <text x="673" y="52" fill="#34d399" font-size="10.5" font-weight="700" text-anchor="middle">Peso normal (Saludable)</text>
-
-      <!-- TMB -->
-      <text x="18" y="78" fill="#a1a1aa" font-size="11.5">-&gt; Metabolismo Basal (TMB)</text>
-      <text x="760" y="78" fill="#d8b4fe" font-size="12" font-weight="700" text-anchor="end">1,715.00 kcal</text>
-
-      <!-- GET -->
-      <text x="18" y="100" fill="#a1a1aa" font-size="11.5">-&gt; Gasto Diario Total (GET)</text>
-      <text x="760" y="100" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="end">2,658.25 kcal</text>
+      <text x="726" y="36" fill="#10b981" font-family="ui-monospace, monospace" font-size="12" font-weight="700" text-anchor="end">2,658 kcal</text>
     </g>
 
-    <!-- Terminal Footer Prompt -->
-    <g transform="translate(0, 360)">
-      <line x1="0" y1="0" x2="780" y2="0" stroke="#27272a" stroke-width="0.8"/>
-      <text x="0" y="18" font-size="11">
-        <tspan fill="#34d399" font-weight="700">➜ </tspan>
-        <tspan fill="#c084fc" font-weight="700">body-index </tspan>
-      </text>
-      <!-- Blinking Cursor -->
-      <rect x="95" y="7" width="7" height="13" fill="#c084fc"/>
+    <!-- Tarjeta de validación de algoritmos clínicos -->
+    <g transform="translate(18, 170)">
+      <rect x="0" y="0" width="744" height="60" rx="7" fill="#080d16" stroke="#1e293b" stroke-width="0.8"/>
+      <!-- Icono Actividad/Rendimiento en caja -->
+      <rect x="12" y="14" width="32" height="32" rx="6" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="0.8"/>
+      <path d="M 20 30 L 24 30 L 27 23 L 31 37 L 34 30 L 38 30" fill="none" stroke="#34d399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
 
-      <text x="780" y="18" fill="#71717a" font-size="10.5" text-anchor="end">Python 3.10+ • Modular &amp; Sin dependencias externas</text>
+      <text x="56" y="28" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11.5" font-weight="600">Cálculo de TDEE con factor de actividad revisado</text>
+      <text x="56" y="44" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9.5">Algoritmo clínico determinista validado contra tablas antropométricas de la OMS</text>
+
+      <text x="726" y="36" fill="#2dd4bf" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700" text-anchor="end">FastAPI 0.115</text>
     </g>
   </g>
 </svg>

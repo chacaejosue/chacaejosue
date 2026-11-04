@@ -91,8 +91,8 @@
   <sub><a href="https://github.com/chacaejosue/finora">Ver repositorio &rarr;</a></sub>
 </td>
 <td valign="top">
-  <sub><code>Python 3</code> &bull; <code>FastAPI</code> &bull; <code>Next.js</code> &bull; <code>CLI</code></sub><br>
-  <sub><a href="https://github.com/chacaejosue/body-index">Ver repositorio &rarr;</a></sub>
+  <sub><code>Python 3</code> &bull; <code>FastAPI</code> &bull; <code>Next.js 15</code> &bull; <code>TypeScript</code></sub><br>
+  <sub><a href="https://bodyindex-fresh.vercel.app/">Probar demo en vivo &rarr;</a></sub>
 </td>
 </tr>
 </table>
